@@ -7,6 +7,7 @@ body {
   line-height: 1.4;
   font-size: 16px;
   color: #120031;
+  background-color: #FFFDFD;
 }
 
 h1 {
@@ -33,10 +34,15 @@ header {
   font-size: 1.5em;
 }
 
+
+.info {
+  display: block;
+}
+
 .outbound-links {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-top: 2em;
   text-align: center;
   font-size: 1.3em;
 }
@@ -46,12 +52,18 @@ header {
   margin: 0 20px 2em;
 }
 
+.email-link,
 .github-link,
 .linkedin-link,
 .jakme-link {
   display: inline-block;
   padding-left: 1.6em;
   margin: 0 0 0.5em;
+}
+
+.email-link {
+  background: url(../icons/email.svg) left center no-repeat;
+  background-size: auto 100%;
 }
 
 .github-link {
