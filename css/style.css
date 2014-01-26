@@ -37,6 +37,7 @@ header {
 
 .info {
   display: block;
+  text-align: center;
 }
 
 .outbound-links {
