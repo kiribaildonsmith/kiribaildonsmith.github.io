@@ -34,7 +34,6 @@ header {
   font-size: 1.5em;
 }
 
-
 .info {
   display: block;
   text-align: center;
@@ -50,7 +49,7 @@ header {
 
 .outbound-links li {
   display: inline-block;
-  margin: 0 20px 2em;
+  margin: 0 20px 1em;
 }
 
 .email-link,
