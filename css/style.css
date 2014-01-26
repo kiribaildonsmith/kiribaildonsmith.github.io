@@ -1,0 +1,70 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+  margin: 0.5em auto 0.05em;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  margin: 0 0 4em;
+}
+
+.subhead {
+  font-size: 1.5em;
+}
+
+.outbound-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.outbound-links li {
+  display: inline-block;
+  margin: 0 20px 2em;
+}
+
+.github-link,
+.linkedin-link,
+.jakme-link {
+  display: inline-block;
+  padding-left: 1.6em;
+  margin: 0 0 0.5em;
+}
+
+.github-link {
+  background: url(../icons/github.svg) left center no-repeat;
+  background-size: auto 100%;
+}
+
+.linkedin-link {
+  background: url(../icons/linkedin.svg) left center no-repeat;
+  background-size: auto 100%;
+}
+
+.jakme-link {
+  background: url(../icons/jakme.svg) left center no-repeat;
+  background-size: auto 100%;
+}
+
+.item-summary {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
