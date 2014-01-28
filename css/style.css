@@ -17,8 +17,14 @@ h1 {
   margin: 0.5em auto 0.05em;
 }
 
-a {
+a,
+a:active,
+a:visited {
   color: #05707C;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .wrapper {
@@ -27,7 +33,7 @@ a {
 
 header {
   text-align: center;
-  margin: 0 0 4em;
+  margin: 0 0 2em;
 }
 
 .subhead {
@@ -50,7 +56,7 @@ header {
 
 .outbound-links li {
   display: inline-block;
-  margin: 0 20px 2em;
+  margin: 0 20px 1em;
 }
 
 .email-link,
@@ -58,28 +64,34 @@ header {
 .linkedin-link,
 .jakme-link {
   display: inline-block;
-  padding-left: 1.6em;
   margin: 0 0 0.5em;
 }
 
-.email-link {
-  background: url(../icons/email.svg) left center no-repeat;
-  background-size: auto 100%;
+.link-icon {
+  display: block;
+  float: left;
+  height: 1.6em;
+  width: 1.6em;
 }
 
-.github-link {
-  background: url(../icons/github.svg) left center no-repeat;
-  background-size: auto 100%;
+.email-link .link-icon {
+  background: url(../icons/email.svg) left top no-repeat;
+  background-size: auto 80%;
 }
 
-.linkedin-link {
-  background: url(../icons/linkedin.svg) left center no-repeat;
-  background-size: auto 100%;
+.github-link .link-icon {
+  background: url(../icons/github.svg) left top no-repeat;
+  background-size: auto 80%;
 }
 
-.jakme-link {
-  background: url(../icons/jakme.svg) left center no-repeat;
-  background-size: auto 100%;
+.linkedin-link .link-icon {
+  background: url(../icons/linkedin.svg) left top no-repeat;
+  background-size: auto 80%;
+}
+
+.jakme-link .link-icon {
+  background: url(../icons/jakme.svg) left top no-repeat;
+  background-size: auto 80%;
 }
 
 .item-summary {
