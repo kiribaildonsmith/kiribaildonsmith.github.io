@@ -1,13 +1,17 @@
 html {
   font-size: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.4;
-  font-size: 16px;
-  color: #120031;
   background-color: #FFFDFD;
+  color: #120031;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -99,4 +103,3 @@ header {
   margin: 0 0 1em;
   width: 100%;
 }
-
